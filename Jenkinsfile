@@ -28,7 +28,7 @@ environment {
 
     stage('SonarQube analysis') {
     environment {
-      scannerHome = tool 'valaxy-sonar-scanner'
+      scannerHome = tool 'vbo-sonar-scanner'
     }
     steps{
     withSonarQubeEnv('vbo-sonarqube-server') { // If you have configured more than one global server connection, you can specify its name
