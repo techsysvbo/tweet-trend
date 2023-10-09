@@ -10,7 +10,6 @@ environment {
     stages {
         stage('build') {
             steps {
-            #     git branch: 'main', url: 'https://github.com/techsysvbo/tweet-trend.git'
                   sh 'mvn clean deploy'
             }
         }
