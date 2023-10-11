@@ -4,7 +4,7 @@ def version   = '2.1.4'
 pipeline {
     agent {
         node {
-            any
+            label 'maven'
         }
     }
 environment {
