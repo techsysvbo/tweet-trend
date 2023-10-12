@@ -48,7 +48,6 @@ environment {
 }
     }
   }
-     def registry = 'https://techsysvbo.jfrog.io'
          stage("Jar Publish") {
         steps {
             script {
