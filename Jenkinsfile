@@ -22,7 +22,7 @@ environment {
             steps{
                 echo "----------- unit test started ----------"
                 sh 'mvn surefire-report:report'
-                 echo "----------- unit test Complted ----------"
+                 echo "----------- unit test Completed ----------"
             }
         }
 
