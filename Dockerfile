@@ -1,3 +1,3 @@
-FROM openjdk:8
+FROM openjdk:11
 ADD jarstaging/com/valaxy1/demo-workshop/2.1.4/demo-workshop-2.1.4.jar ttrend.jar 
 ENTRYPOINT [ "java", "-jar", "ttrend.jar" ]
