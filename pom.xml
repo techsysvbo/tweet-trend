@@ -27,7 +27,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+	</project>
+	<properties>
+		<java.version>11</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 		<!-- https://mvnrepository.com/artifact/org.kohsuke/github-api -->
 		<dependency>
 		    <groupId>org.kohsuke</groupId>
@@ -119,10 +123,3 @@
 			<url>file://jarstaging</url>
 		</repository>
 	</distributionManagement>
-
-
-</project>
-<properties>
-	<java.version>11</java.version>
-	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-</properties>
