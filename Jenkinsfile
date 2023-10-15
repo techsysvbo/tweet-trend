@@ -1,5 +1,5 @@
 def registry = 'https://techsysvbo.jfrog.io'
-def version   = '2.1.4'
+def version   = '2.1.2'
 pipeline {
     agent {
         node {
