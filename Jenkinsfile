@@ -1,5 +1,6 @@
 def registry = 'https://techsysvbo.jfrog.io'
 def version   = '2.1.2'
+def imageName = 'techsysvbo.jfrog.io/valaxy1-docker-local/ttrend'
 pipeline {
     agent {
         node {
@@ -88,7 +89,7 @@ environment {
         steps {
             script {
                echo '<--------------- Docker Publish Started --------------->'  
-                docker.withRegistry(registry, 'artfiact-cred'){
+                docker.withRegistry(registry, 'artifactory-cred'){
                     app.push()
                 }    
                echo '<--------------- Docker Publish Ended --------------->'  
