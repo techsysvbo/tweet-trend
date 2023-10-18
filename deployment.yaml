@@ -17,7 +17,7 @@ spec:
       - name: cred 
       containers:
       - name:  valaxy-rtp
-        image: https://techsysvbo.jfrog.io/artifactory/valaxy-docker/hello-world/1.0.0
+        image: techsysvbo.jfrog.io/valaxy-docker-local/hello-world:1.0.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
