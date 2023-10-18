@@ -14,7 +14,7 @@ spec:
         app:  valaxy-rtp
     spec:
       imagePullSecrets:
-      - name: jfrogcred 
+      - name: cred 
       containers:
       - name:  valaxy-rtp
         image: valaxy05.jfrog.io/valaxy-docker/ttrend:2.1.4
