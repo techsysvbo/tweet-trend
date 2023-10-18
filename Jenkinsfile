@@ -1,5 +1,5 @@
 def registry = 'https://techsysvbo.jfrog.io'
-def version   = '1.0.0'
+def version   = '2.1.4'
 def imageName = 'techsysvbo.jfrog.io/artifactory/valaxy-docker/hello-world'
 pipeline {
     agent {
@@ -58,7 +58,7 @@ environment {
                           "files": [
                             {
                               "pattern": "jarstaging/(*)",
-                              "target": "libs-release/{1}",
+                              "target": "valaxy-docker/{1}",
                               "flat": "false",
                               "props" : "${properties}",
                               "exclusions": [ "*.sha1", "*.md5"]
