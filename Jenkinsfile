@@ -1,5 +1,5 @@
 def registry = 'https://techsysvbo.jfrog.io'
-def version   = '2.1.2'
+def version   = '1.0.0'
 def imageName = 'techsysvbo.jfrog.io/artifactory/valaxy-docker/hello-world'
 pipeline {
     agent {
